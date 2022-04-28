@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <GridLayout
+        android:id="@+id/panel2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/btnE"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="e"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/round_button"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnPow"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="^"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/round_button"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnLeftParentheses"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="("
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/round_button"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnRightParentheses"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text=")"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/round_button"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnCos"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="cos"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/round_button"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btnSin"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="sin"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/round_button"
+            android:textColor="@color/black"/>
+    </GridLayout>
+</merge>
